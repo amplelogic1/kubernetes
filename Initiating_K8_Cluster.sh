@@ -1,0 +1,1 @@
+sudo kubeadm init --cri-socket /run/containerd/containerd.sock --control-plane-endpoint="192.168.1.253:6443" --upload-certs --apiserver-advertise-address=192.168.1.253 --pod-network-cidr=10.244.0.0/16 --service-cidr=10.96.0.0/16
